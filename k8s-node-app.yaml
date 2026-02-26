@@ -28,7 +28,7 @@ metadata:
   namespace: default
 spec:
   selector:
-    app.kubernetes.io/name: nodejs-app
+    app: nodejs-app
   type: NodePort
   ports:
     - name: http
